@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zubiri Juan</title>
+</head>
+<body>
+    <link rel="stylesheet" href="estilos.css">
+
+
+    <div id="contenedor">
+        <div id="superiorContact">
+        </div><!--cierraSuperior-->
+
+        <div class="opciones">
+            <ul >
+                <li><a href="#"> <h2>Testimonios</h2><p></p> </a></li>
+                <li><a href="#"> <h2>Soporte</h2> </a></li>
+                <li><a href="#"> <h2>Soluciones</h2> </a></li>
+                <li><a href="#"> <h2>Nosotros</h2> </a></li>
+                <li><a href="#"> <h2>Bodegas</h2> </a></li>
+                <li><a href="#"> <h2>Productos</h2> </a></li>
+                <li><a href="#"> <h2>Eventos</h2> </a></li>
+                <li><a href="#"> <h2>Chat</h2> </a></li>
+                <li><a href="#"> <h2>Blogs</h2> </a></li>
+                <li><a href="#"> <h2>Noticias</h2> </a></li>
+                <li><a href="#"> <h2>Servicios</h2> </a></li>    
+            </ul>
+              <div><!--cierraOpciones-->
+
+        <div id="centroContact">
+            <div id="unoC">
+                <img id="event_icon" src="..//Desempe-o-html5-CSS3-validacionesJS/imagenes/event_icon.gif">
+                    <div id="Evento" ><h3>Eventos</h3></div> 
+   
+                   <div id="EventoFecha"> <h4>MAYO 2011</h4> </div>
+
+                     <div id="EventoTexto"><p> Se celebra en la Provincia de Mendoza, el primer fin de semana de marzo (casi sin interrupciones desde
+                        1936) y se trata del homenakje que el hombre le dedica a su industria principal: la vitivinícola.</p>
+                   </div> 
+
+                   <img id="event_icon2" src="..//Desempe-o-html5-CSS3-validacionesJS/imagenes/more_bg.gif">
+            </div>
+
+
+            <div id="dosC">
+                    <h1>Contactenos</h1>
+                    <br>
+                    <p>Alvear 2701</p>
+                    <br>
+                    <p>Telefono: 4256598</p>
+                    <p>Fax: 4205632</p>
+                    <br>
+                    <p>Horario de Atención: 8:30 a 17 hs.</p> 
+                    <p>Email: contacto@vinos.com.ar</p>
+            </div>
+
+
+            <div id="tresC">
+                <form id="formulario" method="#" action="#">
+                    <h1>* Campos Obligatorios</h1>
+
+                    <p>
+                        <label for="destinatario">Destinatario: </label>
+                        <select name="destinatario">
+                            <option>Sr.</option>
+                            <option>Sra.</option>
+                            <option>Srta.</option>
+                        </select>
+                    </p>
+                    <p>
+                        <label for="nombreApe">Apellido y Nombre:</label>
+                        <input type="text" id="nombreApe" required/><span> &nbsp; *</span> 
+                    </p>
+                    <p>
+                        <label for="razon">Razón Social: </label>
+                        <input type="text" id="razon" pattern="^[A-Z0-9. ]{1,15}$" title="SOLO MAYUSCULAS"required/>  
+                    </p>
+                    <p>
+                        <label for="email">Email: </label>
+                        <input type="email" id="email" required/><span> &nbsp; *</span> 
+                        
+                    </p>
+                    <p>
+                        <label for="tel">Telefono: </label>
+                        <input type="tel" id="tel" pattern="[0-9]{10}" title="Ingrese sólo números sin guiones"required/><span> &nbsp; *</span> 
+                    </p>
+                    <p>
+                        <label for="celu">Celular: </label>
+                        <input type="celular" id="celu" pattern="([0-9]{2,4})([0-9][ -]*){8}" title="Ingrese su número anteponiendo el código de área"/>
+                    </p>
+                    <p>
+                        <label for="contacto">Vía de Contacto: </label>
+                        <select name="tipo_cont">
+                            <option>Email</option>
+                            <option>Teléfono</option>
+                            <option>Fax</option>
+                        </select>
+                    </p>
+                    <p>
+                        <label for="comentario">Comentarios: </label>
+                        <textarea id="comentario" name="texto" maxlength="300"></textarea>
+                    </p>
+
+                    <p>
+                        <input type="submit" id="enviar" value="Enviar" onsubmit="Contacto()"/>
+                    </p>
+
+                </form>
+                <script>
+                    function Contacto(){
+
+                     var nombreApe= document.getElementById("nombreApe").value;
+                        var tel= document.getElementById("tel").value;
+                     var email= document.getElementById("email").value;
+
+                   if(nombreApe.length!=0 && email.length!=0 && tel.length!=0){
+                    alert("Los datos han sido enviados");
+                    return false;
+                   }
+                }
+                </script>
+
+            </div>
+
+            <div id="cuatroC">
+                <img id="event_icon" src="..//Desempe-o-html5-CSS3-validacionesJS/imagenes/service.gif">
+                <div id="Evento" ><h3>Eventos</h3></div> 
+
+                 <div id="GlosarioTexto"><p> Enologo:</p>
+                    <p>Experto responsable de dirigir y asesorar en el proceso de elaboración del vino y su almacenaje, análisis y conservación, embotellados y comercialización.<br>
+                    Estudia asimismo el proceso del cultivo de la vid, así como los suelos aptos para determinados cepajes y otro temas vinculados.
+                    </p>
+               </div> 
+            </div>           
+
+        </div><!--Cierra Centro-->
+        
+        <div class="pie">
+            <ul >
+                <li><a href="#"> <h2>Testimonios</h2><p></p> </a></li>
+                <li><a href="#"> <h2>Soporte</h2> </a></li>
+                <li><a href="#"> <h2>Soluciones</h2> </a></li>
+                <li><a href="#"> <h2>Nosotros</h2> </a></li>
+                <li><a href="#"> <h2>Chat</h2> </a></li>
+                <li><a href="#"> <h2>Productos</h2> </a></li>
+                <li><a href="#"> <h2>Noticias</h2> </a></li>
+                <li><a href="#"> <h2>Contacto</h2> </a></li>    
+            </ul>
+        </div>
+
+         </div><!--cierra contenedor-->
+  </body>
+ </html>

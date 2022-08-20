@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zubiri Juan</title>
+</head>
+
+<body>
+    <link rel="stylesheet" href="estilos.css">
+
+
+    <div id="contenedor">
+        <div id="superior">
+        </div><!--cierraSuperior-->
+
+        <div class="opciones">
+            <ul >
+                <li><a href="#"> <h2>Testimonios</h2><p></p> </a></li>
+                <li><a href="#"> <h2>Soporte</h2> </a></li>
+                <li><a href="#"> <h2>Soluciones</h2> </a></li>
+                <li><a href="#"> <h2>Nosotros</h2> </a></li>
+                <li><a href="#"> <h2>Bodegas</h2> </a></li>
+                <li><a href="#"> <h2>Productos</h2> </a></li>
+                <li><a href="#"> <h2>Eventos</h2> </a></li>
+                <li><a href="#"> <h2>Chat</h2> </a></li>
+                <li><a href="#"> <h2>Blogs</h2> </a></li>
+                <li><a href="#"> <h2>Noticias</h2> </a></li>
+                <li><a href="#"> <h2>Servicios</h2> </a></li>    
+            </ul>
+              <div><!--cierraOpciones-->
+
+
+        <div id="centro">
+            <div id="centroLI">
+                <div id="uno"> 
+                  <img id="iconProducto" src="..//Desempe-o-html5-CSS3-validacionesJS/imagenes/project_icon.gif">
+                 <div id="Producto" ><h3>Productos</h3></div> 
+
+                <div id="Producto1"><p>Las mejores variedades</p>
+                    <img src="..//Desempe-o-html5-CSS3-validacionesJS/imagenes/images5.jpg">
+                </div> 
+                    
+            </div>
+
+
+
+                <div id="dos"> 
+                    <img id="event_icon" src="..//Desempe-o-html5-CSS3-validacionesJS/imagenes/event_icon.gif">
+                    <div id="Evento" ><h3>Eventos</h3></div> 
+   
+                   <div id="EventoFecha"> <h4>MAYO 2011</h4> </div>
+
+                     <div id="EventoTexto"><p> Se celebra en la Provincia de Mendoza, 
+                         el primer fin de semana de marzo (casi sin interrupciones desde
+                        1936) y se trata del homenaje que el hombre le dedica a su industria 
+                        principal: la vitivinícola.</p>
+                   </div> 
+
+                </div>
+                <div id="tres"> 
+                    <div id="Producto1"><p>Cata de vinos</p>
+                        <img src="..//Desempe-o-html5-CSS3-validacionesJS/imagenes/imagesCAR2P5TK.jpg">
+                    </div> 
+                </div>
+                <div id="cuatro"> 
+                    <img id="event_icon" src="..//Desempe-o-html5-CSS3-validacionesJS/imagenes/service.gif">
+                    <div id="Evento" ><h3>Eventos</h3></div> 
+
+                     <div id="GlosarioTexto"><p> Enologo:</p>
+                        <p>Experto responsable de dirigir y asesorar en el proceso de elaboración del vino y su almacenaje, análisis y conservación, embotellados y comercialización.<br>
+                        Estudia asimismo el proceso del cultivo de la vid, así como los suelos aptos para determinados cepajes y otro temas vinculados.
+                        </p>
+                   </div> 
+                </div>
+                <div id="cinco"> 
+                    <div id="Producto1"><p>Las mejores bodegas</p>
+                        <img src="..//Desempe-o-html5-CSS3-validacionesJS/imagenes/images9.jpg">
+                    </div> 
+
+                </div>
+
+                <!--"seis"-->
+                    <form id="login" method="POST" action="#">
+                        <p id="usuarios">Usuarios</p>
+                        <p>
+                            <label for="nombre">Nombre</label>
+                            <input type="text" id="nombre" title="Ingrese su Nombre sin espacios" pattern=[A-Za-z]+ required/>
+                        </p>
+                        <p>
+                            <label for="email">Email</label>
+                            <input type="email" id="email" title="Ingrese su Email" required/>
+                        </p>
+                        <p id="suscribete">
+                            <a href="javascript:Login()">Suscríbete <br>ahora</a>
+                            
+                        </p>
+                        <p id="boton">
+                            <input name="login" type="image" src="imagenes/btn_signup2.gif" onclick="Login()">
+                        </p>
+
+                    </form>
+                    <script>
+                        function Login(){
+
+                          var nombre= document.getElementById("nombre").value;            
+                          var email= document.getElementById("email").value;
+
+                           if(nombre.length!=0 && email.length!=0){
+                            alert("Ingreso con exito");
+                            return false;
+                          }
+                        }
+                    </script>
+
+
+            </div> <!--LI-->
+
+            <div id="centroLD">
+                <div id="unoLD"> 
+                    <h1>Los Mejores</h1>
+                    <br>
+                    <h4><u>La región vitivinícola en Argentina se desarrolla<br>
+                         entre los 22º y 42º de latitud sur</u></h4>
+
+                         <br>
+
+                    <p><span>Santa Florentina</span> propone el espumante ideal para acompañar el brindis de estas fiestas: <span>el BRUT de torrontés</span>, nacido en las tierras riojanas de los Valles del Fátima.
+                        Este espumante es un <span>varietal 100% torrontes riojano</span>, de sabor fresco y óptima acidez que se exalta con el frizante de las burbujas, y permite que los aromas
+                    frutales se realcen en la boca. <span>BRUT de Torrontés</span> presenta un intenso sabor, con notas a azahares, frutas cítricas y ananá, que exalta los sentidos por su frescura y equilibrada acidez. </p>
+                    
+                    <p id="ComprarVino"><b>Comprar vino significa saber elegir el vino de <br> acuerdo a los gustos de cada consumidor</b></p>
+                    <br>
+                    <p>Según el Observatorio vitiviniícola Argentino, por el Malbec de pagó un precio promedio ponderado de $422 el quintal, por el 
+                        Chardonnay, $233 el quintal por la variedad Aspirant Bouchet, $570. Claras diferencias de precio por zona.
+                    </p>
+
+                </div>
+
+                <div id="dosLD"> 
+                         <h2>Tipos de vinos </h2>
+                    <div id="dosLD1">
+                        <ul>
+                            <li>Capas Blancas</li>
+                            <li>Blends</li>
+                            <li>Cepas Tintas</li>
+                        </ul>
+                    </div>   
+                    <div id="dosLD2">    
+                    </div>
+
+                </div>
+
+
+                
+                <div id="tresLD">
+                        <h2>Nuestra Historia </h2>
+                   <div id="tresLD1">
+                       <p> La historia del vino en nuestro país se remonta a la temprana época colonial. 
+                           En 1556 el sacerdote Juan Cedrón llevó a Santiago del Estero unas estacas de vis. Posteriormente, 
+                           el galo Aimé Pouget <a id="link" href="#"> mas...</a> </p>
+                   </div>
+                   <div id="tresLD2">    
+                </div>
+
+                </div>
+
+            </div><!--LD-->
+
+        </div><!--CierraCentro-->
+
+        <div class="pie">
+            <ul >
+                <li><a href="#"> <h2>Testimonios</h2><p></p> </a></li>
+                <li><a href="#"> <h2>Soporte</h2> </a></li>
+                <li><a href="#"> <h2>Soluciones</h2> </a></li>
+                <li><a href="#"> <h2>Nosotros</h2> </a></li>
+                <li><a href="#"> <h2>Chat</h2> </a></li>
+                <li><a href="#"> <h2>Productos</h2> </a></li>
+                <li><a href="#"> <h2>Noticias</h2> </a></li>
+                <li><a href="contact.html"> <h2>Contacto</h2> </a></li>    
+            </ul>
+        </div>
+
+    </div><!--cierra contenedor-->
+ </body>
+</html>
