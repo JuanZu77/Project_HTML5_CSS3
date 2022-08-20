@@ -38,7 +38,7 @@
      }
 
 
-/*--------------------------------CENTRo L-----------------------------------------------------*/    
+/*--------------------------------CENTRO-----------------------------------------------------*/    
 #centro {width: 900px; height: 620px; background-color: #6B0505;
          margin-top: 0px; padding:0px;  
          box-shadow: inset 0px 7px 7px 9px rgba(0,0,0,0.29);
@@ -67,7 +67,6 @@
 
 #cinco{border:1px solid #6B0505; width: 200px; height: 110px; float: left; 
             margin: 1px; margin-left: 5px;}
-/*seis caja #Login*/
 
     
           /*- --  LADO DER --- -*/ 
@@ -85,7 +84,7 @@
 }
 
 
-/* ------------- BLOQUE centro IZq ----------- */
+/* ------------- BLOQUE centro IZQ ----------- */
 #iconProducto{float: left; margin-left: 10px;}
 #Producto{float:left; margin-left: 10px; margin-top: 5px;  font-family: Arial; color: aliceblue; font-weight:lighter;}
 
