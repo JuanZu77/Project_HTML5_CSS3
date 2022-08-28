@@ -1,23 +1,28 @@
 *{margin: 0; padding: 0;}
+
 #contenedor{
     margin:10px auto 0 auto;
     width: 900px;
     height: 952px;
     background-color: white;
-    border-left: 1px solid #B6A365; border-top: 1px solid #B6A365;
+    border-left: 1px solid #B6A365; 
+    border-top: 1px solid #B6A365;
 }
 
-#superior{/*border:1px solid red;*/  width: 900px; height: 300px; 
-   margin: 1px auto auto;
+#superior{/*border:1px solid red;*/  
+    width: 900px; height: 300px; 
+    margin: 1px auto auto;
     background-image: url(..//Desempe-o-html5-CSS3-validacionesJS/imagenes/header.jpg);
     background-repeat: no-repeat;
-    box-shadow: inset 1px 5px 5px 5px rgba(0,0,0,0.52);
-    
+    box-shadow: inset 1px 5px 5px 5px rgba(0,0,0,0.52);   
 }
 
-
-.opciones { /*border:1px solid #B6A365;*/ width: 900px; height: 25px;
-           text-align: left; background-color: black; margin: 0 auto 0 auto; }
+.opciones { /*border:1px solid #B6A365;*/ 
+    width: 900px; height: 25px;
+    text-align: left; 
+    background-color: black; 
+    margin: 0 auto 0 auto; 
+}
 
 .opciones h2{
         color: gray;
@@ -27,118 +32,229 @@
  }
 
 
-.opciones ul li{ list-style: none; display: inline-block; text-decoration: inherit;
-                 border-right:1px solid gray; padding-top: 1px; padding-bottom: 5px;
+.opciones ul li{ list-style: none; 
+    display: inline-block; 
+    text-decoration: inherit;
+    border-right:1px solid gray; 
+    padding-top: 1px; padding-bottom: 5px;
 }
 
-.opciones ul li:nth-child(11){border:0px;}
+.opciones ul li:nth-child(11){border:0px
+}
 
-.opciones ul li a{  text-decoration-line:none; background:black;
-    display: inline-block; ; padding-right: 18px;  padding-left: 15px;
-     }
+.opciones ul li a{  
+    text-decoration-line:none; 
+    background:black;
+    display: inline-block;  
+    padding-right: 18px;  padding-left: 15px;
+}
 
 
 /*--------------------------------CENTRO-----------------------------------------------------*/    
-#centro {width: 900px; height: 620px; background-color: #6B0505;
-         margin-top: 0px; padding:0px;  
-         box-shadow: inset 0px 7px 7px 9px rgba(0,0,0,0.29);
+#centro {width: 900px; height: 620px; 
+    background-color: #6B0505;
+    margin-top: 0px; padding:0px;  
+    box-shadow: inset 0px 7px 7px 9px rgba(0,0,0,0.29);
 }
 
 
-#centroLI{/*border:1px solid #6B0505;*/ width: 430px; height: 580px; float: left; 
+#centroLI{/*border:1px solid #6B0505;*/ 
+    width: 430px; height: 580px; 
+    float: left; 
     margin: 5px; margin-left: 10px;
 }
-#centroLD{/*border:1px solid #6B0505;*/ width: 430px; height: 580px; float: left;
+#centroLD{/*border:1px solid #6B0505;*/ 
+    width: 430px; height: 580px; 
+    float: left;
     margin: 5px;
 }
 
                /* LADO IZQ */
-#uno{border:1px solid #6B0505; width: 200px; height: 140px; float: left; 
-    margin: 1px; margin-left: 5px; margin-top: 20px;}
+#uno{border:1px solid #6B0505; 
+    width: 200px; height: 140px; 
+    float: left; 
+    margin: 1px; margin-left: 5px; margin-top: 20px;
+}
                                                                                         
-#dos{border:1px solid #4F0101; width: 200px; height: 270px; float: right; 
-    margin: 1px; margin-left: 5px; background-color: #4F0101; margin-top: 20px;}
+#dos{border:1px solid #4F0101; 
+    width: 200px; height: 270px; 
+    float: right; 
+    margin: 1px; margin-left: 5px; 
+    background-color: #4F0101; 
+    margin-top: 20px;
+}
 
-#tres{border:1px solid #6B0505; width: 200px; height: 130px; float: left; 
-        margin: 1px; margin-left: 5px;}
+#tres{border:1px solid #6B0505; 
+    width: 200px; height: 130px; 
+    float: left; 
+    margin: 1px; margin-left: 5px;
+}
 
-#cuatro{border:1px solid #4F0101; width: 200px; height: 270px; float: right; 
-            margin: 1px; margin-left: 5px;background: #4F0101; }
+#cuatro{border:1px solid #4F0101;
+        width: 200px; height: 270px; 
+        float: right; 
+        margin: 1px; margin-left: 5px;
+        background: #4F0101; 
+    }
 
-#cinco{border:1px solid #6B0505; width: 200px; height: 110px; float: left; 
-            margin: 1px; margin-left: 5px;}
+#cinco{border:1px solid #6B0505; 
+       width: 200px; height: 110px; 
+       float: left; 
+       margin: 1px; margin-left: 5px;}
 
     
           /*- --  LADO DER --- -*/ 
-#unoLD{border:1px solid #6B0505; width: 420px; height: 410px; float: left; 
+#unoLD {border:1px solid #6B0505; 
+    width: 420px; height: 410px; 
+    float: left; 
     margin: 1px; margin-left: 5px; margin-top: 20px;
 }
 
 
-#dosLD{border:1px solid #816F44; width: 195px; height: 136px; float: left; 
-    margin: 1px; margin-left: 5px; margin-top: 10px; background: #816F44;
+#dosLD{border:1px solid #816F44; 
+      width: 195px; height: 136px; 
+      float: left; 
+      margin: 1px; margin-left: 5px; margin-top: 10px; 
+      background: #816F44;
 }
 
-#tresLD{border:1px solid #816F44; width: 195px; height: 136px; float: left; 
-    margin: 1px; margin-left: 15px; margin-top: 10px; background: #816F44;
+#tresLD{border:1px solid #816F44; 
+       width: 195px; height: 136px; float: left; 
+       margin: 1px; margin-left: 15px; margin-top: 10px; 
+       background: #816F44;
 }
 
 
 /* ------------- BLOQUE centro IZQ ----------- */
-#iconProducto{float: left; margin-left: 10px;}
-#Producto{float:left; margin-left: 10px; margin-top: 5px;  font-family: Arial; color: aliceblue; font-weight:lighter;}
+#iconProducto{float: left; margin-left: 10px;
+}
 
-#Producto1{float:left; font-family: Arial;color: darksalmon; font-size: 10px;
-            margin-left: 10px; margin-top: 10px;  }
+#Producto{float:left; 
+          margin-left: 10px; margin-top: 5px; 
+          font-family: Arial; 
+          color: aliceblue; 
+          font-weight:lighter;
+}
 
-#Producto1 img{ width: 180px; height: 80px; margin-top: 10px;}    
+#Producto1{float:left; font-family: 
+          Arial;color: darksalmon; 
+          font-size: 10px;
+          margin-left: 10px; margin-top: 10px;  
+ }
 
-#event_icon{float: left; margin-left: 40px;margin-top: 4px;}
-#Evento{float:left; margin-left: 2px; margin-top: 10px;  width: 100px;
-    font-family: Arial; color: aliceblue; font-weight:lighter;}
+#Producto1 img{ width: 180px; height: 80px; 
+                margin-top: 10px;
+}    
 
-#EventoFecha{float:left; font-family: calibri;color: darksalmon; font-size: 15px; margin-left: 30px;
-            text-align: center; margin-top: 15px;  background-color: #7B241C; width:135px ;}
+#event_icon{float: left; 
+            margin-left: 40px;margin-top: 4px;
+}
 
-#EventoTexto{float:left; margin-left: 5px; text-align:center; margin-top: 10px; 
-              font-family: calibri; color:darksalmon; font-weight: lighter;}
+#Evento{float:left; 
+        margin-left: 2px; margin-top: 10px;  
+        width: 100px;
+        font-family: Arial; color: aliceblue; 
+        font-weight:lighter;
+}
 
-#GlosarioTexto{float:left; margin-left: 5px; text-align:left; margin-top: 10px; 
-                font-family: calibri; color:darksalmon; font-weight: lighter; font-size: 15px;}             
+#EventoFecha{float:left; 
+            font-family: calibri;color: darksalmon; 
+            font-size: 15px; 
+            margin-left: 30px;
+            text-align: center; 
+            margin-top: 15px;  
+            background-color: #7B241C; width:135px;
+}
+
+#EventoTexto{float:left; 
+             margin-left: 5px; 
+             text-align:center; 
+             margin-top: 10px; 
+             font-family: calibri; 
+             color:darksalmon; 
+             font-weight: lighter;
+}
+
+#GlosarioTexto{float:left; 
+              margin-left: 5px; 
+              text-align:left; 
+              margin-top: 10px; 
+              font-family: calibri; 
+              color:darksalmon; font-weight: 
+              lighter; font-size: 15px;
+}             
 
  /*------------------BLOQUE LD--------------------*/
- #unoLD h1{ color: white; font-family: Arial, Helvetica, sans-serif; font-weight: lighter;}
- #unoLD h4{ color: #AF9966 ; font-family: Arial, Helvetica, sans-serif; font-weight: lighter; font-weight: bold;}
- #unoLD p{font-family: calibri; font-weight: lighter; font-size: 15px;}
+ #unoLD h1{ color: white; 
+            font-family: Arial, Helvetica, sans-serif; 
+            font-weight: lighter;
+}
+ #unoLD h4{ color: #AF9966 ; 
+            font-family: Arial, Helvetica, sans-serif; 
+            font-weight: lighter; 
+            font-weight: bold;
+}
+ #unoLD p{font-family: calibri; 
+         font-weight: lighter; 
+         font-size: 15px;
+}
  #unoLD p span{font-weight: bold;}
 
- #ComprarVino{background: #4F0101; color: #A3987F ; font-family: arial; font-size: 16px; font-weight: lighter;}
+ #ComprarVino{background: #4F0101; 
+              color: #A3987F ; 
+              font-family: arial; 
+              font-size: 16px; 
+              font-weight: lighter;
+}
 
-#dosLD1 {width: 195px; height: 80px;}
-#dosLD2 {border:1px solid #5D4C23; width:193px; height: 10px; 
-    float: left; margin-top: 21px; background: #5D4C23;}
+#dosLD1 {width: 195px; height: 80px;
+}
+#dosLD2 {border:1px solid #5D4C23; 
+        width:193px; height: 10px; 
+        float: left; 
+        margin-top: 21px; 
+        background: #5D4C23;
+}
+ #dosLD h2{color: white; 
+           background: black; 
+           padding-top:5px; 
+           padding-bottom:5px; 
+           padding-left: 10px;
+}
 
- #dosLD h2{color: white; background: black; padding-top:5px; padding-bottom:5px; padding-left: 10px;}
+#dosLD ul{font-size: 10px; 
+          margin-left:25px; 
+          padding-top:15px; padding-bottom:30px; 
+        font-family: calibri; color: #c7b99c; 
+}
+#dosLD ul li{list-style:url(imagenes/arrow.gif); display: list-item;
+}
+#tresLD1 {width: 195px; height: 80px;
+}
+#tresLD2 {border:1px solid #5D4C23; 
+          width:193px; height: 10px; 
+          float: left; margin-top: 21px; 
+          background: #5D4C23;
+}
 
-
- #dosLD ul{font-size: 10px; margin-left:25px; padding-top:15px; padding-bottom:30px; 
-               font-family: calibri; color: #c7b99c; }
-#dosLD ul li{list-style:url(imagenes/arrow.gif); display: list-item;}
-
-
-
-#tresLD1 {width: 195px; height: 80px;}
-#tresLD2 {border:1px solid #5D4C23; width:193px; height: 10px; 
-    float: left; margin-top: 21px; background: #5D4C23;}
-
-#tresLD h2{color: white; background: black; padding-top:5px; padding-bottom:5px; padding-left: 10px;}
-#tresLD p{color: #c7b99c; font-family: calibri; font-size: 12.5px; margin-left: 5px; margin-right: 5px;}
+#tresLD h2{color: white; 
+           background: black; 
+           padding-top:5px; padding-bottom:5px; padding-left: 10px;
+}
+#tresLD p{color: #c7b99c; 
+          font-family: calibri; font-size: 12.5px; 
+          margin-left: 5px; margin-right: 5px;
+}
 
 
 
 /*-----------------PIE-------------------------------------------------------*/
-.pie{ border-top:1px solid whitesmoke; float:left; width: 900px; height: 25px;
-    text-align: left; background-color: black;}
+.pie{ border-top:1px solid whitesmoke; 
+      float:left; 
+      width: 900px; height: 25px;
+      text-align: left; 
+      background-color: black;
+}
 
 .pie h2{
  color: gray;
@@ -147,87 +263,146 @@
  font-size: 10px;
 }
 
-.pie ul li{ list-style: none; display: inline-block; 
-          border-right:1px solid gray
+.pie ul li{list-style: none; 
+           display: inline-block; 
+           border-right:1px solid gray
 }
 
 .pie ul li:nth-child(8){border:0px;}
 
-.pie ul li a{  text-decoration-line:none;
-background:black;
-display: inline-block; ; padding-right: 18px; 
-padding-left: 15px;
+.pie ul li a{text-decoration-line:none;
+             background:black;
+             display: inline-block; ; padding-right: 18px; 
+             padding-left: 15px;
 }
 
 
-
-
  /*  -----------------    CONTACT   --------------------------------------------------*/
- #superiorContact{  width: 900px; height: 260px; 
-margin: 1px auto auto;
-     background-image: url(..//Desempe-o-html5-CSS3-validacionesJS/imagenes/headerinside.jpg);
-     background-repeat: no-repeat;
-     box-shadow: inset 1px 5px 5px 5px rgba(0,0,0,0.52);
-     
+ #superiorContact{width: 900px; height: 260px; 
+                  margin: 1px auto auto;
+                  background-image: url(..//Desempe-o-html5-CSS3-validacionesJS/imagenes/headerinside.jpg);
+                  background-repeat: no-repeat;
+                  box-shadow: inset 1px 5px 5px 5px rgba(0,0,0,0.52);    
  }
- #centroContact { width: 900px; height: 640px; background-color: #6B0505;
-    box-shadow: inset 0px 7px 7px 9px rgba(0,0,0,0.29);
+ #centroContact { width: 900px; height: 640px; 
+                  background-color: #6B0505;
+                  box-shadow: inset 0px 7px 7px 9px rgba(0,0,0,0.29);
  }
  
-#unoC{/*border:1px solid #3B000B;*/ width: 200px; height: 280px; float: left;
-    margin: 1px; margin-left: 25px;  background: #3B000B;}
-
+#unoC{/*border:1px solid #3B000B;*/ 
+    width: 200px; height: 280px; 
+    float: left;
+    margin: 1px; margin-left: 25px;  
+    background: #3B000B;
+}
 
 #event_icon2 {margin-left: 15px; margin-top: 10px;}
 
+#dosC{/*border:1px solid aqua;*/                        /*CONTACTO*/
+    width: 630px; height: 200px; 
+    float: right; 
+    margin: 1px; margin-left: 10px; margin-right: 20px;}
 
-#dosC{/*border:1px solid aqua;*/ width: 630px; height: 200px; float: right; /*CONTACTENOS*/
-        margin: 1px; margin-left: 10px; margin-right: 20px;}
+#dosC h1{color:white; font-family: 
+         Arial; color: aliceblue; 
+         font-weight:lighter;
+         font-size: 25px; 
+         margin-top: 10px; margin-left: 10px;
+}       
 
-#dosC h1{color:white; font-family: Arial; color: aliceblue; font-weight:lighter;
-        font-size: 25px; margin-top: 10px; margin-left: 10px;}       
 #dosC p {color: rosybrown; font-family: calibri; margin-left: 10px ;} 
 
+#tresC{/*border:1px solid  yellow;*/                     /*FORMULARIO*/
+       width: 630px; height: 400px; 
+       float: right; 
+       margin: 1px; margin-left: 10px; margin-right: 20px;
+}
 
-#tresC{/*border:1px solid  yellow;*/ width: 630px; height: 400px; float: right; /*FORMULARIO*/
-            margin: 1px; margin-left: 10px; margin-right: 20px;}
-
-#cuatroC{border:1px solid #3B000B; width: 200px; height: 280px; float: left;  
-    margin: 1px; margin-left: 25px;background: #3B000B; margin-top: 15px; }
-
-
-    /*----------- FORM LOGIN --------------------------------------*/
-
-#login{color:white; width:181px; height:130px; margin-left:15px; margin-top: 20px;  
-        float:left; background: #4F0101; }
-
-#usuarios{ width: 166px; height:15px; background:#bb1e1e;padding-left: 15px; 
-          padding-top:5px; font-family: Arial, Helvetica, sans-serif; font-size: 12px; }
-
-#login input{width: 150px; height:10px; margin-left: 15px;  }
-#login label{font-size: 8px; margin-left:15px; margin-bottom:-18px; font-family: Arial, Helvetica, sans-serif; }
-#suscribete{ margin-top: 5px; margin-left: 15px;font-size: 8px; height:20px; width:50px;}
-#suscribete a{color:#a99175; text-decoration:underline;  }
-#boton input{width:42px; height:16px; float:right; margin-right: 14px; margin-top: -15px; }
+#cuatroC{border:1px solid #3B000B; 
+    width: 200px; height: 280px; 
+    float: left;  
+    margin: 1px; margin-left: 25px;
+    background: #3B000B; 
+    margin-top: 15px; 
+}
 
 
+/*------------------- FORM LOGIN --------------------------------------*/
 
-  /*--------------- FORM CONTACT ----------------------*/  
+#login{color:white; 
+       width:181px; height:130px; 
+       margin-left:15px; margin-top: 20px;  
+       float:left; 
+       background: #4F0101; 
+}
+
+#usuarios{ width: 166px; height:15px; 
+           background:#bb1e1e;
+           padding-left: 15px; 
+           padding-top:5px; 
+           font-family: Arial, Helvetica, sans-serif; font-size: 12px; 
+}
+
+#login input{width: 150px; height:10px; 
+             margin-left: 15px;  
+}
+#login label{font-size: 8px; 
+             margin-left:15px; margin-bottom:-18px; 
+             font-family: Arial, Helvetica, sans-serif; 
+}
+#suscribete{ margin-top: 5px; margin-left: 15px;
+             font-size: 8px; 
+             height:20px; width:50px;
+}
+
+#suscribete a{color:#a99175; 
+              text-decoration:underline;  
+}
+#boton input{width:42px; height:16px; 
+             float:right; 
+             margin-right: 14px; margin-top: -15px; 
+}
+
+
+/*---------------- FORM CONTACT ----------------------*/  
 #formulario{color:white; margin-top: 10px; margin-left:25px; font-size:9px;} 
 
+#tresC h1{font-family: calibri; 
+          font-weight: lighter; 
+          font-size: 14px; 
+          margin-bottom: 20px;
+}
 
-#tresC h1{font-family: calibri; font-weight: lighter; font-size: 14px; margin-bottom: 20px;}
+input{ width: 210px; height:12.5px; 
+}
+input:focus {outline: solid 3px wheat; 
+             outline-offset:2px;
+             background: wheat; 
+}
 
-input{ width: 210px; height:12.5px; }
-input:focus {outline: solid 3px wheat; outline-offset:2px;background: wheat; }
-label, input{display:inline-block; font-family: calibri;}
-label{width:70px; height:25px; text-align:left; margin-right:10px; vertical-align:middle; margin-top: 3px; }
-select{width:214px; height: 16px; font-size: 12.5px;}
+label, input{display:inline-block; 
+    font-family: calibri;
+}
 
-input[type=submit]{width:60px; height:25px; background:none; border:solid 2px white; 
-                   color:white; font-size:12px; margin-left:150px; }
+label{width:70px; height:25px; 
+      text-align:left; 
+      margin-right:10px; 
+      vertical-align:middle; 
+      margin-top: 3px; 
+}
+
+select{width:214px; height: 16px; 
+       font-size: 12.5px;
+}
+
+input[type=submit]{width:60px; height:25px; 
+                  background:none; border:solid 2px white; 
+                  color:white; font-size:12px; margin-left:150px; 
+}
+
 textarea {
-    width: 240px; height: 110px;
-    padding: 5px 5px 5px 5px;
-    margin: 5px 0 5px 0;}
+          width: 240px; height: 110px;
+          padding: 5px 5px 5px 5px;
+          margin: 5px 0 5px 0;
+}
 
