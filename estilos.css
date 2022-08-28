@@ -110,7 +110,6 @@
     margin: 1px; margin-left: 5px; margin-top: 20px;
 }
 
-
 #dosLD{border:1px solid #816F44; 
       width: 195px; height: 136px; 
       float: left; 
@@ -277,7 +276,7 @@
 }
 
 
- /*  -----------------    CONTACT   --------------------------------------------------*/
+ /* ----------------- CONTACT --------------------------------------------------*/
  #superiorContact{width: 900px; height: 260px; 
                   margin: 1px auto auto;
                   background-image: url(..//Desempe-o-html5-CSS3-validacionesJS/imagenes/headerinside.jpg);
@@ -328,7 +327,6 @@
 
 
 /*------------------- FORM LOGIN --------------------------------------*/
-
 #login{color:white; 
        width:181px; height:130px; 
        margin-left:15px; margin-top: 20px;  
@@ -375,6 +373,7 @@
 
 input{ width: 210px; height:12.5px; 
 }
+
 input:focus {outline: solid 3px wheat; 
              outline-offset:2px;
              background: wheat; 
